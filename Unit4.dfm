@@ -1,0 +1,127 @@
+object ResultF: TResultF
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 545
+  ClientWidth = 500
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 152
+    Top = 49
+    Width = 196
+    Height = 42
+    Caption = 'Calculadora'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object result1: TEdit
+    Left = 24
+    Top = 128
+    Width = 177
+    Height = 21
+    NumbersOnly = True
+    TabOrder = 0
+  end
+  object result2: TEdit
+    Left = 290
+    Top = 128
+    Width = 193
+    Height = 21
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 48
+    Top = 368
+    Width = 99
+    Height = 41
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 48
+    Top = 424
+    Width = 99
+    Height = 49
+    Caption = '-'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button4: TButton
+    Left = 336
+    Top = 424
+    Width = 89
+    Height = 41
+    Caption = '/'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 336
+    Top = 368
+    Width = 89
+    Height = 41
+    Caption = 'X'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button5Click
+  end
+  object Resultado: TEdit
+    Left = 163
+    Top = 224
+    Width = 185
+    Height = 21
+    Enabled = False
+    TabOrder = 6
+  end
+  object btApaga: TButton
+    Left = 200
+    Top = 480
+    Width = 89
+    Height = 41
+    Caption = 'C'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+    OnClick = Button4Click
+  end
+end

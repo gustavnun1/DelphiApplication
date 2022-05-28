@@ -1,0 +1,53 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label3: TLabel;
+    tfNome: TEdit;
+    tfEnd: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label4: TLabel;
+    Panel1: TPanel;
+    Label5: TLabel;
+    CALCULAR: TButton;
+    Cadastro_Escolha: TButton;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    tfSabor: TEdit;
+    tfTam: TEdit;
+    tfEscolhida: TEdit;
+    tfPreco: TEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+  sabor:integer;
+   var tamanho:double;
+   var borda: integer;
+    var nome: string;
+    var endereco: string;
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+uses unit2;
+
+{$R *.dfm}
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+nome:= unit2.Form2.tfNome.Text;
+
+end;
+end.
